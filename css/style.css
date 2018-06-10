@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+ul, ol {
+  list-style: none; }
+
+button {
+  border: none;
+  outline: none; }
+
+body {
+  background: url(/img/bg.png) no-repeat;
+  background-size: cover;
+  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-weight: normal; }
+
+/* page01 */
+.page01 {
+  margin: 0 0.4rem;
+  color: #fff;
+  height: 16.08rem;
+  position: relative; }
+
+.page01 .personal-info {
+  display: flex;
+  margin-top: 0.93333rem;
+  align-items: center; }
+
+.page01 .personal-info .avatar {
+  width: 0.8rem;
+  height: 0.8rem;
+  border: 1px #fff solid;
+  border-radius: 50%; }
+
+.page01 .personal-info h1 {
+  font-size: 0.50667rem;
+  margin-left: 0.21333rem; }
+
+.page01 .evaluate {
+  font-size: 0.42667rem;
+  margin-top: 0.34667rem;
+  margin-bottom: 1.6rem; }
+
+.page01 .mainimg {
+  width: 9.04rem;
+  height: 7.66667rem;
+  margin-bottom: 1.6rem; }
+
+.page01 .comment {
+  font-size: 0.42667rem; }
+
+.page01 .arrow {
+  width: 0.90667rem;
+  height: 0.50667rem;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%); }
+
+/* page02 */
+.page02 {
+  margin-left: 0.4rem;
+  margin-bottom: 1.33333rem; }
+
+.page02 .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.page02 .top .trade-info {
+  margin: 1.06667rem 0 1.2rem; }
+
+.page02 .top .trade-info .tradename {
+  font-size: 0.42667rem;
+  color: #fff;
+  margin-bottom: 0.13333rem; }
+
+.page02 .top .trade-info h2 {
+  font-size: 1.06667rem;
+  color: #fbf336; }
+
+.page02 .top .trade-info h2 > span {
+  font-size: 0.53333rem; }
+
+.page02 .top .praise {
+  margin-right: 0.4rem; }
+
+.page02 .top .praise img {
+  width: 1.65333rem;
+  height: 1.65333rem; }
+
+/* main */
+.page02 .main li {
+  height: 2.26667rem;
+  margin-bottom: 0.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.page02 .main li > img {
+  width: 1.52rem;
+  margin-right: 0.53333rem; }
+
+.page02 .main li > .right {
+  width: 100%;
+  height: 2.26667rem;
+  background: url(/img/page02_textbg.png) no-repeat;
+  background-size: cover;
+  border-bottom-left-radius: 0.13333rem;
+  border-top-left-radius: 0.13333rem;
+  padding: 0.4rem; }
+
+.page02 .main li > .right h2 {
+  font-size: 0.32rem;
+  color: #fff;
+  margin-bottom: 0.26667rem; }
+
+.page02 .main li > .right p {
+  font-size: 0.45333rem;
+  color: #fbf336; }
+
+.page02 .main li > .right .tag {
+  font-size: 0.37333rem;
+  border: 1px #fbf336 solid;
+  padding: 0.08rem 0.21333rem;
+  color: #fbf336; }
+
+/* handle */
+.handle {
+  margin-bottom: 0.53333rem;
+  margin: 0 0.34667rem 0.53333rem;
+  display: flex;
+  justify-content: space-between; }
+
+.handle button {
+  width: 4.48rem;
+  height: 1.17333rem;
+  border-radius: 0.13333rem;
+  font-size: 0.42667rem;
+  color: #fff; }
+
+.handle .download {
+  background: linear-gradient(to bottom, #d68d2c, #de5653); }
+
+.handle .sell {
+  background: linear-gradient(to bottom, #cfcb3f, #d79533); }

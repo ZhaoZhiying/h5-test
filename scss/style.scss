@@ -1,0 +1,145 @@
+@function px( $px ){
+    @return $px/$designWidth*10 + rem;
+}
+$designWidth: 750; 
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+ul,ol{list-style: none;}
+button{border: none; outline: none;}
+body{
+    background: url(/img/bg.png) no-repeat;
+    background-size: cover;
+    font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-weight: normal;
+}
+/* page01 */
+.page01{
+    margin: 0 px(30);
+    color: #fff;
+    height: px(1206);
+    position: relative;
+}
+.page01 .personal-info{
+    display: flex;
+    margin-top: px(70);
+    align-items: center;
+}
+.page01 .personal-info .avatar{
+    width: px(60);
+    height: px(60);
+    border:1px #fff solid;
+    border-radius: 50%;
+}
+.page01 .personal-info h1{
+    font-size: px(38);
+    margin-left: px(16);
+}
+.page01 .evaluate{
+    font-size: px(32);
+    margin-top: px(26);
+    margin-bottom: px(120);
+}
+.page01 .mainimg{
+    width: px(678);
+    height: px(575);
+    margin-bottom: px(120);
+}
+.page01 .comment{
+    font-size: px(32);
+}
+.page01 .arrow{
+    width: px(68);
+    height: px(38);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* page02 */
+.page02{
+    margin-left: px(30);
+    margin-bottom: px(100); 
+}
+.page02 .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page02 .top .trade-info{
+    margin: px(80) 0 px(90);
+}
+.page02 .top .trade-info .tradename{
+    font-size: px(32);
+    color: #fff;
+    margin-bottom: px(10);
+}
+.page02 .top .trade-info h2{
+    font-size: px(80);
+    color: #fbf336;
+}
+.page02 .top .trade-info h2>span{
+    font-size: px(40);
+}
+.page02 .top .praise{
+    margin-right: px(30);
+}
+.page02 .top .praise img{
+    width: px(124);
+    height: px(124);
+}
+/* main */
+.page02 .main li{
+    height: px(170);
+    margin-bottom: px(30);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page02 .main li>img{
+    width: px(114);
+    margin-right: px(40);
+}
+.page02 .main li>.right{
+    width: 100%;
+    height: px(170);
+    background: url(/img/page02_textbg.png) no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: px(10);
+    border-top-left-radius: px(10);
+    padding: px(30);
+}
+.page02 .main li>.right h2{
+    font-size: px(24);
+    color: #fff;
+    margin-bottom: px(20);
+}
+.page02 .main li>.right p{
+    font-size: px(34);
+    color: #fbf336;
+}
+.page02 .main li>.right .tag{
+    font-size: px(28);
+    border: 1px #fbf336 solid;
+    padding: px(6) px(16);
+    color: #fbf336;
+}
+/* handle */
+.handle{
+    margin-bottom: px(40);
+    margin: 0 px(26) px(40);
+    display: flex;
+    justify-content: space-between;
+}
+.handle button{
+    width: px(336);
+    height: px(88);
+    border-radius: px(10);
+    font-size: px(32);
+    color: #fff;
+}
+.handle .download{
+    background: linear-gradient(to bottom, #d68d2c, #de5653);
+}
+.handle .sell{
+    background: linear-gradient(to bottom, #cfcb3f, #d79533);
+}
