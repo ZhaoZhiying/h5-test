@@ -5,6 +5,7 @@ $designWidth: 750;
 
 *{margin: 0; padding: 0; box-sizing: border-box;}
 ul,ol{list-style: none;}
+h1,h2,h3,h4,h5{font-weight: normal;}
 button{border: none; outline: none;}
 body{
     background: url(/img/bg.png) no-repeat;
@@ -51,7 +52,7 @@ body{
     width: px(68);
     height: px(38);
     position: absolute;
-    bottom: 0;
+    bottom: px(20);
     left: 50%;
     transform: translateX(-50%);
 }
